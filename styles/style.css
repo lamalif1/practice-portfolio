@@ -1,5 +1,40 @@
-h1{
-    color: green;
-    text-align: center;
-    margin-top: 20%;
+*{
+    font-family: 'Open Sans', sans-serif;
 }
+span{
+    color: #FD6E0A;;
+}
+/* This is button-style css*/
+.button-style{
+    height: 64px;
+    width: 150px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+/* This is anchor style css */
+.anchor-style{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* This is navication bar style css */
+nav ul li {
+    list-style: none;
+}
+.header-class{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 226px;
+    margin-right: 230px;
+    
+}
+nav ul{
+    display: flex;
+}
+.nav-style{
+ display: flex;
+}
+ul li{
+    margin-right: 51px;
+}
+
