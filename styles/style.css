@@ -115,6 +115,7 @@ ul li{
 }
 .about-info{
     display: flex;
+    justify-content: space-around;
 }
 .info-title{
     color: #474747;
@@ -125,9 +126,7 @@ ul li{
     color: #474747;
     font-weight: 700;
 }
-.info-div{
-    margin-left: 50px;
-}
+
 /* this is What I do part */
 .normal-paragraph{
     font-size: 18px;
@@ -135,4 +134,7 @@ ul li{
     margin: 0 346px 50px 345px;
     text-align: center;
     
+}
+#skill{
+    display: flex;
 }
