@@ -30,7 +30,7 @@ nav ul li {
     padding-top: 51px;
     
 }
-nav ul{
+nav ul , #resume-section{
     display: flex;
 }
 .nav-style{
@@ -160,3 +160,30 @@ ul li{
 /* What I do part is end */
 
 /* resume style is start from here*/
+.resume-description{
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+#resume-section{
+    margin: 0 227px 50px 230px;
+     gap: 78px;
+     margin-bottom: 50px;
+}
+.resume-div-style{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 10px;
+}
