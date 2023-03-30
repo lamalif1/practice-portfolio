@@ -30,7 +30,7 @@ nav ul li {
     padding-top: 51px;
     
 }
-nav ul , #resume-section{
+nav ul , #resume-div{
     display: flex;
 }
 .nav-style{
@@ -177,7 +177,7 @@ ul li{
     color: #474747;
     margin-bottom: 30px;
 }
-#resume-section{
+#resume-div{
     margin: 0 227px 50px 230px;
      gap: 78px;
      margin-bottom: 50px;
@@ -186,4 +186,27 @@ ul li{
     margin-bottom: 50px;
     border-bottom: 1px solid #D1D1D1;
     padding-bottom: 10px;
+}
+/* this is footer style */
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 130px 200px;
+    gap: 117px;
+}
+/* this is footer style */
+footer p{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+footer input[type="text"] , [type="email"] {
+    border: none;
+    padding: 10px;
+    height: 50px;
+    width: 461px;
+}
+textarea{
+    border: none;
+    height: 180px;
+    width: 461px;
 }
