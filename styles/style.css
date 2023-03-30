@@ -209,4 +209,6 @@ textarea{
     border: none;
     height: 180px;
     width: 461px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
